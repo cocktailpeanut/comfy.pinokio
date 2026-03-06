@@ -4,7 +4,7 @@ module.exports = async (kernel, info) => {
     {
       method: "shell.run",
       params: {
-        message: "git clone https://github.com/comfyanonymous/ComfyUI app"
+        message: "git clone https://github.com/Comfy-Org/ComfyUI app"
       }
     },
     {

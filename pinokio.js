@@ -3,7 +3,7 @@ module.exports = {
   version: "6.0",
   title: "Comfyui",
   description: "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. https://github.com/comfyanonymous/ComfyUI",
-  icon: "icon.jpeg",
+  icon: "icon.webp",
   on: {
     "trigger-download": {
       ui: {
