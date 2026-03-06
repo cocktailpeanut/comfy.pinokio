@@ -1,0 +1,11 @@
+{
+  "run": [
+    {
+      "method": "fs.download",
+      "params": {
+        "url": "{{input.url}}",
+        "path": "app/models/{{input.savePath}}/{{input.filename}}"
+      }
+    }
+  ]
+}
