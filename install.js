@@ -1,6 +1,8 @@
-const d = require('./initialize-models-default')
-module.exports = async (kernel, info) => {
-  let run = [
+module.exports = {
+  requires: {
+    bundle: "ai",
+  },
+  run: [
     {
       method: "shell.run",
       params: {
@@ -92,10 +94,4 @@ module.exports = async (kernel, info) => {
       }
     },
   ]
-  return {
-    run,
-    requires: {
-      bundle: "ai",
-    }
-  }
 }
