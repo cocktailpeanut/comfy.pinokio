@@ -8,12 +8,6 @@ module.exports = {
     }
   }],
   restart: [{
-    method: "input",
-    params: {
-      title: "Restart ComfyUI",
-      description: "Comfyui needs to restart to apply changes."
-    }
-  }, {
     method: "script.restart"
   }],
   run: [
