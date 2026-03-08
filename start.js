@@ -8,10 +8,14 @@ module.exports = {
     }
   }],
   restart: [{
+    method: "notify",
+    params: {
+      html: "Auto-restarting comfyui to apply changes. Stand by..."
+    }
+  }, {
     method: "script.restart"
   }],
   run: [
-    // [index 0] Start ComfyUI
     {
       id: "start_comfyui",
       method: "shell.run",
