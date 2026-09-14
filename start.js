@@ -23,7 +23,7 @@ module.exports = {
         },
         path: "app",
         message: [
-          "{{platform === 'win32' && gpu === 'amd' ? 'python main.py --directml --enable-manager' : 'python main.py --enable-manager'}}"
+          "python main.py --enable-manager"
         ],
         on: [{
           "event": "/(http:\/\/[a-zA-Z0-9.]+:[0-9]+)/i",
